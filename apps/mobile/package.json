@@ -1,0 +1,22 @@
+{
+  "name": "@moto/mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "@moto/shared": "0.1.0",
+    "expo": "~52.0.12",
+    "expo-notifications": "~0.29.14",
+    "react": "18.3.1",
+    "react-native": "0.76.3",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
