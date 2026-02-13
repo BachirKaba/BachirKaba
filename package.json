@@ -1,0 +1,15 @@
+{
+  "name": "moto-taxi-gn-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @moto/shared && npm run build -w @moto/api && npm run build -w @moto/admin",
+    "dev:api": "npm run start:dev -w @moto/api",
+    "dev:mobile": "npm run start -w @moto/mobile",
+    "dev:admin": "npm run dev -w @moto/admin",
+    "test": "npm run test -w @moto/api"
+  }
+}

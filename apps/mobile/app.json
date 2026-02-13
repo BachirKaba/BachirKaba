@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Moto Taxi GN",
+    "slug": "moto-taxi-gn",
+    "scheme": "mototaxign",
+    "extra": {
+      "apiUrl": "http://localhost:3000/api"
+    }
+  }
+}
